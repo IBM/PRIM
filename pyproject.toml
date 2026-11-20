@@ -27,7 +27,7 @@ baselines = [
     # scikit-learn. It's installed with --no-deps by scripts/install_baselines.sh
     # instead, which also re-pins setuptools after every `uv sync`/`uv run`
     # sync (both silently drop it otherwise, see that script's comments).
-    "setuptools<81",
+    "setuptools<85",
     "pyyaml",
     "dill",
     "dowhy",
